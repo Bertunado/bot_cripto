@@ -14,6 +14,7 @@ O bot monitora o mercado e, ao detectar que o RSI caiu abaixo do gatilho (35), i
 <img width="555" height="135" alt="parte2" src="https://github.com/user-attachments/assets/b3c4e5e5-c092-4108-b1cc-290e64464ffd" />
 
 
+
 **Cenário de Lucro (Trailing Stop-Loss)**
 
 Para maximizar os ganhos, o bot não vende em um alvo fixo. Ao atingir um lucro inicial (2.5%), ele ativa um "stop móvel" que segue o preço para cima, vendendo apenas quando o preço recua 0.5% a partir do seu último pico, garantindo o lucro máximo da tendência.
@@ -26,8 +27,8 @@ Para maximizar os ganhos, o bot não vende em um alvo fixo. Ao atingir um lucro 
 Para evitar perdas em quedas bruscas ("violinadas"), o bot não vende em pânico. Se o stop-loss inicial (-2%) é atingido, ele inicia uma pausa de 10 minutos para confirmar se a queda é persistente.
 Após 10 minutos, se o preço ainda estiver baixo, ele confirma a venda para proteger o capital e entra em um "cooldown" de 30 minutos para evitar operar em um mercado instável.
 
-*(Cole aqui o print do "EXECUTANDO STOP-LOSS")*
-``
+<img width="648" height="133" alt="parte5" src="https://github.com/user-attachments/assets/2569c882-5b32-4333-ab98-728b68c5c6fc" />
+
 
 **Principais Funcionalidades**
 
