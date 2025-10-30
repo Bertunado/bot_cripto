@@ -7,7 +7,7 @@ O bot utiliza análise técnica (RSI) para identificar pontos de entrada em "sob
 
 Abaixo, alguns exemplos do log do terminal mostrando o bot em operação.
 
-**1. Detecção e Compra (RSI < 35)**
+**Detecção e Compra (RSI < 35)**
 
 O bot monitora o mercado e, ao detectar que o RSI caiu abaixo do gatilho (35), identifica uma oportunidade de compra, executa a ordem e salva seu estado.
 
